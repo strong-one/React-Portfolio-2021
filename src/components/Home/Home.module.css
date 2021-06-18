@@ -1,0 +1,43 @@
+.Home {
+  background: purple;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(54, 30, 70, 1) 65%,
+    rgba(140, 28, 209, 1) 92%
+  );
+  display: flex;
+  height: 630px;
+  padding-top: 90px;
+  position: relative;
+}
+.Home .Container {
+  position: absolute;
+  /* lowers content */
+  top: 15%;
+  left: 2%;
+  color: white;
+}
+
+.Home .Container .Hello {
+  font-size: 63px;
+}
+
+.Home .container h1 {
+  margin: 0;
+}
+
+.Home .computer {
+  height: 70%;
+  position: absolute;
+  right: 0%;
+  right: 10%;
+  top: 20%;
+}
+.Home .code {
+  position: absolute;
+  height: 25%;
+  bottom: 0;
+  left: 2%;
+}
