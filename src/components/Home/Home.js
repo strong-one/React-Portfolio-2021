@@ -6,14 +6,14 @@ import code from "../../img/code.svg";
 
 const Home = () => {
   return (
-    <div class={style.Home}>
-      <div class={style.Container}>
-        <h1 class={style.Hello}>Nick Strong.</h1>
+    <div className={style.Home}>
+      <div className={style.Container}>
+        <h1 className={style.Hello}>Nick Strong.</h1>
         <h1>Aiming For progress and growth</h1>
       </div>
 
-      <img class={style.code} src={code} alt="element"></img>
-      <img class={style.computer} src={computer} alt="computericon"></img>
+      <img className={style.code} src={code} alt="element"></img>
+      <img className={style.computer} src={computer} alt="computericon"></img>
     </div>
   );
 };
