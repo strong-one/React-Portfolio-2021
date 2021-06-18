@@ -1,4 +1,4 @@
-// bringing in the functions from each file
+// bringing in the functions from each file -- need to import so i can call it
 
 import NavBar from "./components/NavBar/NavBar";
 import About from "./components/About/About";
@@ -15,8 +15,8 @@ import Footer from "./components/Footer/Footer";
 // can only return one function -- wrap in a <div></div> element to return more than one call can also use react fragments <> instead of divs </>
 function App() {
   return (
-    // <>
-    <div class="App">
+    <>
+      {/* <div class="App"> */}
       <NavBar />
       <Home />
       <About />
@@ -24,8 +24,8 @@ function App() {
       <Portfolio />
       <Contact />
       <Footer />
-    </div>
-    // </>
+      {/* </div> */}
+    </>
   );
 }
 
