@@ -6,6 +6,9 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import Resume from "./components/Resume/Resume";
 import Footer from "./components/Footer/Footer";
 
+// for bootstrap refactor
+// import {  } from "react-bootstrap";
+
 function App() {
   return (
     <div class="App">
