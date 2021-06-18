@@ -1,0 +1,20 @@
+/* default styling here
+ */
+
+h1 {
+  font-weight: 900;
+  font-size: 45px;
+}
+h2 {
+  font-weight: 700;
+  font-size: 23px;
+}
+
+p {
+  font-weight: 500;
+  font-size: 16px;
+}
+a {
+  font-weight: 900;
+  font-size: 16px;
+}

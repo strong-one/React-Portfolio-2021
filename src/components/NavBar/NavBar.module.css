@@ -1,0 +1,39 @@
+/* locally scoped to NavBar */
+
+.NavBar {
+  background-color: #181818;
+  height: 80px;
+  /* takes up 100% of screen */
+  width: 100%;
+  position: fixed;
+  /* make sure navbar will always be placed in front of all other emelents */
+  z-index: 999;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* traversing down to nested div */
+.NavBar nav ul {
+  /* removes all bullet points */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.NavBar nav ul li {
+  /* positions horizontally */
+  display: inline-block;
+  margin: 20px;
+}
+
+.NavBar nav ul li a {
+  /* removes default line below anchor  */
+  text-decoration: none;
+  color: white;
+}
+
+.NavBar a:hover {
+  border-bottom: 5px solid #8c1cd1;
+}
