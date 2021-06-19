@@ -1,7 +1,13 @@
+import style from "./Portfolio.module.css";
+import PageHeader from "./../PageHeader/PageHeader";
+
 const Portfolio = () => {
   return (
-    <div>
-      <h1>Portfolio</h1>
+    <div className={style.Portfolio}>
+      <PageHeader title={"Portfolio"} />
+      <p>Portfolio Cards Go Here</p>
+
+      <div className={style.Container}></div>
     </div>
   );
 };
