@@ -11,7 +11,7 @@ import Footer from "./components/Footer/Footer";
 // for bootstrap refactor
 // import {  } from "react-bootstrap";
 
-// making calls to each function that were imported from above -- app is parent level component
+// making calls to each function that were imported from above -- app is parent level component -- will render to html via root id
 // can only return one function -- wrap in a <div></div> element to return more than one call can also use react fragments <> instead of divs </>
 function App() {
   return (
