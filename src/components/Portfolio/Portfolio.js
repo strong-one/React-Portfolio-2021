@@ -5,8 +5,7 @@ const Portfolio = () => {
   return (
     <div className={style.Portfolio}>
       <PageHeader title={"Portfolio"} />
-      <p>Portfolio Cards Go Here</p>
-
+      <p>Portfolio Card Go Here</p>
       <div className={style.Container}></div>
     </div>
   );
