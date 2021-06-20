@@ -20,7 +20,7 @@ const Portfolio = () => {
             <Card.Title>Progressive Budget Tracker</Card.Title>
             <Card.Text>
               A Progressive web app. This app keeps track of your budget all
-              while having both online and offline capabilities
+              while having both online and offline capabilities.
             </Card.Text>
             <a href="https://github.com/strong-one/Budget-Tracker-Progressive">
               <Button variant="primary">See code</Button>
@@ -38,7 +38,7 @@ const Portfolio = () => {
             <Card.Title>Weather Dashboard</Card.Title>
             <Card.Text>
               Think of a location.... whatever it is. This app will find the
-              wether for any place you think of
+              wether for any place you think of.
             </Card.Text>
             <a href="https://github.com/strong-one/Strong-Weather-Dashboard">
               <Button variant="primary">See Code</Button>
@@ -54,7 +54,7 @@ const Portfolio = () => {
           <Card.Img variant="top" src={hollyHub} />
           <Card.Body>
             <Card.Title>Hollywood Hub</Card.Title>
-            <Card.Text>A blend of IMDB and Pintrest</Card.Text>
+            <Card.Text>A blend of IMDB and Pintrest.</Card.Text>
             <a href="https://github.com/strong-one/Hollywood-Hub">
               <Button variant="primary">See Code</Button>
             </a>
@@ -108,7 +108,7 @@ const Portfolio = () => {
             <Card.Text>
               An app for ford lovers, utilizing login/logout methods as well as
               creating a user account, enctypting password and storing all user
-              data in a database
+              data in a database.
             </Card.Text>
             <a href="https://github.com/strong-one/Ford-Finder-2021">
               <Button variant="primary">See Code </Button>

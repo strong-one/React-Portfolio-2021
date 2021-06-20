@@ -2,3 +2,9 @@
   background-color: #181818;
   color: #ffc500;
 }
+
+.Form {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 75px;
+}
