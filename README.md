@@ -1,5 +1,8 @@
 # React-Portfolio-2021
 
+![Screenshot](src/img/screenshot.jpg)
+[Deployed Site]()
+
 ## Description
 
 Every devloper needs a portfolio page that will showcase thier projects and work to potential emloyers or customers.
@@ -15,5 +18,6 @@ The best way to contribute is by feedback, what could I have done better? What d
 [Pixabay](https://pixabay.com/)
 [CSS Gradient](https://cssgradient.io/)
 [UI Gradients](https://uigradients.com/#Kyoto)
+[Coolors](https://coolors.co/)
 [React Icons](https://react-icons.github.io/react-icons)
 [React Bootstrap](https://react-bootstrap.github.io/)
