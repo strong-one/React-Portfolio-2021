@@ -31,9 +31,9 @@
 .NavBar nav ul li a {
   /* removes default line below anchor  */
   text-decoration: none;
-  color: white;
+  color: #ffc500;
 }
 
 .NavBar a:hover {
-  border-bottom: 5px solid #8c1cd1;
+  border-bottom: 5px solid #c21500;
 }

@@ -1,5 +1,5 @@
 .Resume {
-  background-color: #141313;
+  background-color: #181818;
   padding-bottom: 5%;
 }
 
@@ -13,6 +13,7 @@ ul {
   color: white;
   padding: 0%;
   list-style-type: none;
+  margin-bottom: 5px;
 }
 
 .Resume .Container {
@@ -26,13 +27,11 @@ ul {
   flex-basis: 33%;
   box-shadow: 0 0 5px 4px gray;
   border-radius: 9px;
-  margin-bottom: 2px;
+  margin-bottom: 10px;
   margin-left: 5px;
+  margin-top: 10px;
 }
-/* .Resume .List ul li {
-  display: flex; 
-  justify-content: center;
-} */
+
 .Resume .List ul li {
   font-size: 18px;
 }
@@ -40,4 +39,7 @@ ul {
 .H4 {
   display: flex;
   justify-content: center;
+}
+li {
+  margin-bottom: 15px;
 }

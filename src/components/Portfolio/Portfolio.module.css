@@ -1,9 +1,18 @@
 .Portfolio {
-  background-color: black;
+  background-color: #181818;
   margin-bottom: 20px;
 }
 .Container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+.Card {
+  margin-top: 15px;
+  color: #ffc500;
+  background-color: #181818;
+}
+.Card Button {
+  background-color: #c21500;
+  border-color: white;
 }

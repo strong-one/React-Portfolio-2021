@@ -1,12 +1,8 @@
 .Home {
-  background: purple;
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(54, 30, 70, 1) 65%,
-    rgba(140, 28, 209, 1) 92%
-  );
+  background: #c21500;
+  background: -webkit-linear-gradient(to right, #ffc500, #c21500);
+  background: linear-gradient(to right, #ffc500, #c21500);
+
   display: flex;
   height: 630px;
   padding-top: 90px;
@@ -17,7 +13,7 @@
   /* lowers content */
   top: 15%;
   left: 2%;
-  color: white;
+  color: #c21500;
 }
 
 .Home .Container .Hello {
@@ -26,6 +22,7 @@
 
 .Home .container h1 {
   margin: 0;
+  color: #c21500;
 }
 
 .Home .computer {
