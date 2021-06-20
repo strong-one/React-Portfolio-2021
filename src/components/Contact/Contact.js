@@ -1,5 +1,6 @@
 import style from "./Contact.module.css";
 import PageHeader from "./../PageHeader/PageHeader";
+import { Button } from "react-bootstrap";
 
 const Contact = () => {
   return (
@@ -10,50 +11,50 @@ const Contact = () => {
     // </div>
     <div className={style.Contact} id="contact">
       <PageHeader title={"Let's Connect"} />
-      <div className={style.Form}>
-        <div className="fcf-body">
+      <div className={style.EntireForm}>
+        <div className={style.Body}>
           <div id="fcf-form">
             <form
               id="fcf-form-id"
-              className="fcf-form-class"
+              className={style.FormClass1}
               method="post"
               action="contact-form-process.php"
             >
-              <div className="fcf-form-group">
-                <label for="Name" class="fcf-label">
+              <div className={style.Group1}>
+                <label for="Name" class={style.Name}>
                   Your name
                 </label>
-                <div className="fcf-input-group">
+                <div className={style.NameInput}>
                   <input
                     type="text"
                     id="Name"
                     name="Name"
-                    class="fcf-form-control"
+                    className="fcf-form-control"
                     required
                   ></input>
                 </div>
               </div>
 
-              <div className="fcf-form-group">
-                <label for="Email" class="fcf-label">
+              <div className={style.Group2}>
+                <label for="Email" className={style.Email}>
                   Your email address
                 </label>
-                <div className="fcf-input-group">
+                <div className={style.EmailInput}>
                   <input
                     type="email"
                     id="Email"
                     name="Email"
-                    class="fcf-form-control"
+                    className="fcf-form-control"
                     required
                   ></input>
                 </div>
               </div>
 
-              <div className="fcf-form-group">
-                <label for="Message" class="fcf-label">
+              <div className={style.Group3}>
+                <label for="Message" className={style.Message}>
                   Your message
                 </label>
-                <div className="fcf-input-group">
+                <div className={style.MessageInput}>
                   <textarea
                     id="Message"
                     name="Message"
@@ -65,14 +66,23 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="fcf-form-group">
-                <button
+              <div className={style.group4}>
+                {/* <button
                   type="submit"
                   id="fcf-button"
-                  class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block"
+                  // class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block"
+                  className={style.Button}
                 >
                   Send Message
-                </button>
+                </button> */}
+                <Button
+                  type="submit"
+                  id="fcf-button"
+                  className={style.Button}
+                  variant="primary"
+                >
+                  Send Message
+                </Button>
               </div>
             </form>
           </div>
