@@ -43,3 +43,25 @@ ul {
 li {
   margin-bottom: 15px;
 }
+
+.DownloadContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.Download {
+  /* background-color: #c21500; */
+  background: #c21500;
+  background: -webkit-linear-gradient(to right, #ffc500, #c21500);
+  background: linear-gradient(to right, #ffc500, #c21500);
+  border-color: white;
+  border-radius: 10px;
+  font-size: 25px;
+  margin-top: 50px;
+  width: 400px;
+}
+
+.Download:hover {
+  background: rgb(46, 44, 44);
+  border-color: #ffc500;
+}

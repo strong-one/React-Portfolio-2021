@@ -1,13 +1,14 @@
 import style from "./About.module.css";
 import PageHeader from "./../PageHeader/PageHeader";
 import me from "../../img/me.JPG";
+
 const Aboutme = () => {
   return (
     <div className={style.AboutMe} id="about">
       <PageHeader title={"About Me"} />
       <div className={style.Container}>
         <div className={style.Text}>
-          <h2>Hello! I'm Nick</h2>
+          <h2>Nicholas Strong</h2>
           <p>
             A full stack web developer earning a Denver University bootcamp
             certificate. With my talents in JavaScript, NoSQL, React.js, Node.js

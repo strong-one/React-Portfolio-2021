@@ -21,9 +21,7 @@ const Contact = () => {
               action="contact-form-process.php"
             >
               <div className={style.Group1}>
-                <label for="Name" class={style.Cred}>
-                  Your name:
-                </label>
+                <label className={style.Cred}>Your name:</label>
                 <div className={style.NameInput}>
                   <input
                     type="text"
@@ -36,9 +34,7 @@ const Contact = () => {
               </div>
 
               <div className={style.Group2}>
-                <label for="Email" className={style.Cred}>
-                  Your email address:
-                </label>
+                <label className={style.Cred}>Your email address:</label>
                 <div className={style.EmailInput}>
                   <input
                     type="email"
@@ -51,16 +47,14 @@ const Contact = () => {
               </div>
 
               <div className={style.Group3}>
-                <label for="Message" className={style.Cred}>
-                  Your message:
-                </label>
+                <label className={style.Cred}>Your message:</label>
                 <div className={style.MessageInput}>
                   <textarea
                     id="Message"
                     name="Message"
                     className={style.InputContainer}
                     rows="6"
-                    maxlength="3000"
+                    // maxlength="3000"
                     required
                   ></textarea>
                 </div>

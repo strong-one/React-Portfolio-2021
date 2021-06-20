@@ -12,6 +12,11 @@
 .AboutMe .Container .Text h2 {
   font-weight: 900;
   font-size: 46px;
+  margin-bottom: 25px;
+  text-decoration: underline #c21500;
+}
+p {
+  font-size: 20px;
 }
 
 .AboutMe .Container .Photo {
@@ -21,6 +26,8 @@
 }
 
 .AboutMe .Container .Photo .Me {
-  height: 500px;
+  /* height: 500px; */
+  width: 90%;
+  max-width: 500px;
   border-radius: 30px;
 }

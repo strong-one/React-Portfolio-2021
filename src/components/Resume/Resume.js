@@ -1,6 +1,7 @@
 import style from "./Resume.module.css";
 import PageHeader from "./../PageHeader/PageHeader";
 import CodePage from "../../img/codepage.jpg";
+import { Button } from "react-bootstrap";
 
 const listTitleStyle = {
   fontWeight: 900,
@@ -112,6 +113,13 @@ const Resume = () => {
         {resumeComplete.map((resume) => {
           return <div className={style.List}>{resume}</div>;
         })}
+      </div>
+      <div className={style.DownloadContainer}>
+        <a href="https://docs.google.com/document/d/1jnoZjRx_b3kU6e6jccsBkMeP6bYWrOX9FKDiW3lIdgU/edit?usp=sharing">
+          <Button className={style.Download} variant="primary">
+            Resumé Download
+          </Button>
+        </a>
       </div>
     </div>
   );
