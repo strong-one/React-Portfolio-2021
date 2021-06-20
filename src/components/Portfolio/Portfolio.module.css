@@ -1,5 +1,8 @@
 .Portfolio {
-  background-color: #181818;
+  /* background-color: #181818; */
+  background: #c21500;
+  background: -webkit-linear-gradient(to right, #ffc500, #c21500);
+  background: linear-gradient(to right, #ffc500, #c21500);
   margin-bottom: 20px;
 }
 .Container {
@@ -15,4 +18,5 @@
 .Card Button {
   background-color: #c21500;
   border-color: white;
+  border-radius: 10px;
 }

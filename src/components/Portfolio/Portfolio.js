@@ -54,7 +54,7 @@ const Portfolio = () => {
           <Card.Img variant="top" src={hollyHub} />
           <Card.Body>
             <Card.Title>Hollywood Hub</Card.Title>
-            <Card.Text>My blend of IMDB and Pintrest</Card.Text>
+            <Card.Text>A blend of IMDB and Pintrest</Card.Text>
             <a href="https://github.com/strong-one/Hollywood-Hub">
               <Button variant="primary">See Code</Button>
             </a>
@@ -88,8 +88,9 @@ const Portfolio = () => {
           <Card.Body>
             <Card.Title>E-Commerce Back End </Card.Title>
             <Card.Text>
-              This is a mock up of data that would be stored in a database this
-              projects CRUD opertations on all of the data.
+              This is a mock up of data that would be stored in an E-Commerce
+              back end. This projects shows functional CRUD opertations on all
+              of the data.
             </Card.Text>
             <a href="https://github.com/strong-one/E-Commerce-Back-End_ORM">
               <Button variant="primary">See code</Button>
