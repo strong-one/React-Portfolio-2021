@@ -1,13 +1,22 @@
 import style from "./Footer.module.css";
+import { FaLinkedin, FaGithub, FaMailBulk } from "react-icons/fa";
+
+// const linkedInUrl = (url) => {
+//   return () event => window.open
+// }
 
 const Footer = () => {
   return (
     <div className={style.Footer}>
-      <h1>Footer</h1>
-      <p>
-        footer goes here with links to social pages and contact (github,
-        linkedin, email, phone number) w/ corresponding icons.{" "}
-      </p>
+      <a href="https://www.linkedin.com/in/nick-strong-71a58159/">
+        <FaLinkedin color="white" size="100px" style={{ padding: "1%" }} />
+      </a>
+      <a href="https://github.com/strong-one">
+        <FaGithub color="white" size="100px" style={{ padding: "1%" }} />
+      </a>
+      <a href="mailto:nstrong92@yahoo.com">
+        <FaMailBulk color="white" size="100px" style={{ padding: "1%" }} />
+      </a>
     </div>
   );
 };

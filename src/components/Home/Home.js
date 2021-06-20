@@ -7,7 +7,7 @@ import code from "../../img/code.svg";
 const Home = () => {
   return (
     // style.Home is adding the local style to the Home class.
-    <div className={style.Home}>
+    <div className={style.Home} id="home">
       <div className={style.Container}>
         <h1 className={style.Hello}>Nick Strong.</h1>
         <h1>Aiming For progress and growth</h1>

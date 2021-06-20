@@ -1,3 +1,9 @@
 .Portfolio {
   background-color: black;
+  margin-bottom: 20px;
+}
+.Container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }

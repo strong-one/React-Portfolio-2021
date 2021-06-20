@@ -1,3 +1,43 @@
 .Resume {
-  background-color: black;
+  background-color: #141313;
+  padding-bottom: 5%;
+}
+
+.Img {
+  width: 2000px;
+  height: 750px;
+}
+
+.Resume .List h4,
+ul {
+  color: white;
+  padding: 0%;
+  list-style-type: none;
+}
+
+.Resume .Container {
+  display: flex;
+  flex-wrap: wrap;
+  /* margin-left: 10%; */
+  /* margin-right: 10%; */
+}
+.Resume .Container .List {
+  /* makes each list a minimum width of 33 percent */
+  flex-basis: 33%;
+  box-shadow: 0 0 5px 4px gray;
+  border-radius: 9px;
+  margin-bottom: 2px;
+  margin-left: 5px;
+}
+/* .Resume .List ul li {
+  display: flex; 
+  justify-content: center;
+} */
+.Resume .List ul li {
+  font-size: 18px;
+}
+
+.H4 {
+  display: flex;
+  justify-content: center;
 }
