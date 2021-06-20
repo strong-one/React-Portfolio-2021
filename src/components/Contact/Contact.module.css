@@ -13,3 +13,23 @@
   border-color: white;
   border-radius: 10px;
 }
+.Button:hover {
+  background-color: rgb(46, 44, 44);
+  border-color: #ffc500;
+}
+
+.InputContainer {
+  width: 500px;
+  border-radius: 25px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.InputContainer:hover {
+  background-color: lightgray;
+  border-radius: 25px;
+}
+
+.Cred {
+  font-size: 20px;
+}

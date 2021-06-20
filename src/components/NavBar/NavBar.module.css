@@ -35,5 +35,6 @@
 }
 
 .NavBar a:hover {
-  border-bottom: 5px solid #c21500;
+  border-bottom: 2px solid white;
+  font-size: 25px;
 }

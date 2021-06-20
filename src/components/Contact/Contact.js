@@ -21,44 +21,44 @@ const Contact = () => {
               action="contact-form-process.php"
             >
               <div className={style.Group1}>
-                <label for="Name" class={style.Name}>
-                  Your name
+                <label for="Name" class={style.Cred}>
+                  Your name:
                 </label>
                 <div className={style.NameInput}>
                   <input
                     type="text"
                     id="Name"
                     name="Name"
-                    className="fcf-form-control"
+                    className={style.InputContainer}
                     required
                   ></input>
                 </div>
               </div>
 
               <div className={style.Group2}>
-                <label for="Email" className={style.Email}>
-                  Your email address
+                <label for="Email" className={style.Cred}>
+                  Your email address:
                 </label>
                 <div className={style.EmailInput}>
                   <input
                     type="email"
                     id="Email"
                     name="Email"
-                    className="fcf-form-control"
+                    className={style.InputContainer}
                     required
                   ></input>
                 </div>
               </div>
 
               <div className={style.Group3}>
-                <label for="Message" className={style.Message}>
-                  Your message
+                <label for="Message" className={style.Cred}>
+                  Your message:
                 </label>
                 <div className={style.MessageInput}>
                   <textarea
                     id="Message"
                     name="Message"
-                    className="fcf-form-control"
+                    className={style.InputContainer}
                     rows="6"
                     maxlength="3000"
                     required

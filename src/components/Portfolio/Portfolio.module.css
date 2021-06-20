@@ -20,3 +20,8 @@
   border-color: white;
   border-radius: 10px;
 }
+
+.Container Button:hover {
+  background-color: rgb(46, 44, 44);
+  border-color: #ffc500;
+}
