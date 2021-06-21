@@ -7,6 +7,7 @@ import Home from "./components/Home/Home";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Resume from "./components/Resume/Resume";
 import Footer from "./components/Footer/Footer";
+// import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 // for bootstrap refactor
 // import {  } from "react-bootstrap";
@@ -16,7 +17,6 @@ import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <>
-      {/* <div class="App"> */}
       <NavBar />
       <Home />
       <About />
@@ -24,8 +24,20 @@ function App() {
       <Portfolio />
       <Contact />
       <Footer />
-      {/* </div> */}
     </>
+    // <Router>
+    //   <NavBar />
+    //   <Home />
+
+    //   <Switch>
+    //     <Route exact path="/" component={About} />
+    //     <Route exact path="/Resume" component={Resume} />
+    //     <Route exact path="/Portfolio" component={Portfolio} />
+    //     <Route exact path="/Contact" component={Contact} />
+    //   </Switch>
+
+    //   <Footer />
+    // </Router>
   );
 }
 

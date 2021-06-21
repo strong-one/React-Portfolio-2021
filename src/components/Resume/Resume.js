@@ -23,6 +23,7 @@ const technicalSkills = (
     </ul>
   </>
 );
+
 const keySkills = (
   <>
     <h4 className={style.H4} style={listTitleStyle}>
@@ -46,12 +47,12 @@ const industryExperience = (
       <li>
         -- Freelance Construction: 2020 - Present; Kitchen and basement
         remodels; Installation of windows and doors; Plumbing; Bidding potential
-        jobs; - Denver, Co{" "}
+        jobs; - Denver, Co
       </li>
       <li>
         -- Custom Craft Consulting, Business Devlopment Manager: 2020 - 2020;
         Providing expert construction software consulting and services to
-        construction professionals. - Denver, Co{" "}
+        construction professionals. - Denver, Co
       </li>
       <li>
         -- In and out Home Improvements, Installation and operations manager:
@@ -60,7 +61,7 @@ const industryExperience = (
         training of workers; scheduling jobs and warranty visits. Denver, Co
       </li>
       <li>
-        -- American Furniture Warehouse, Driver/ Driver helper: 2012 - 2013;{" "}
+        -- American Furniture Warehouse, Driver/ Driver helper: 2012 - 2013;
       </li>
       <li>
         -- U.S. Air Force, Vehicle Operations: 2010 - 2012; Inspecting,
@@ -93,15 +94,20 @@ const resumeComplete = [
   education,
 ];
 
-const Resume = () => {
+const Resume = (props) => {
+  console.log(props);
   return (
     <div className={style.Resume} id="resume">
       <PageHeader title={"Resume"} />
       {/* <div className={style.Container}>{resumeComplete}</div> */}
       <div className={style.Container}>
-        <img className={style.Img} src={CodePage} alt="code html file"></img>
+        <img className={style.Img} src={CodePage} alt="codefile"></img>
         {resumeComplete.map((resume) => {
-          return <div className={style.List}>{resume}</div>;
+          return (
+            <div className={style.List} key={props.resume}>
+              {resume}
+            </div>
+          );
         })}
       </div>
       <div className={style.DownloadContainer}>

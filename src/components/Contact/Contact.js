@@ -24,6 +24,7 @@ const Contact = () => {
                 <label className={style.Cred}>Your name:</label>
                 <div className={style.NameInput}>
                   <input
+                    // placeholder="Input Required"
                     type="text"
                     id="Name"
                     name="Name"
@@ -37,6 +38,7 @@ const Contact = () => {
                 <label className={style.Cred}>Your email address:</label>
                 <div className={style.EmailInput}>
                   <input
+                    // placeholder="Input Required"
                     type="email"
                     id="Email"
                     name="Email"
@@ -50,6 +52,7 @@ const Contact = () => {
                 <label className={style.Cred}>Your message:</label>
                 <div className={style.MessageInput}>
                   <textarea
+                    // placeholder="Input Required"
                     id="Message"
                     name="Message"
                     className={style.InputContainer}
@@ -85,4 +88,5 @@ const Contact = () => {
     </div>
   );
 };
+
 export default Contact;

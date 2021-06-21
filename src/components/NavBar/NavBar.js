@@ -1,5 +1,6 @@
 // importing css file within folder within first div
 import style from "./NavBar.module.css";
+import Resume from "../Resume/Resume";
 
 const NavBar = () => {
   return (
@@ -12,7 +13,7 @@ const NavBar = () => {
           <li>
             <a href="/#about">About Me</a>
           </li>
-          <li>
+          <li onClick={Resume}>
             <a href="/#resume">Resume</a>
           </li>
           <li>
