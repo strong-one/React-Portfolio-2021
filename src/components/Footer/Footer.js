@@ -1,5 +1,10 @@
 import style from "./Footer.module.css";
-import { FaLinkedin, FaGithub, FaMailBulk } from "react-icons/fa";
+import {
+  FaLinkedin,
+  FaGithub,
+  FaMailBulk,
+  FaFacebookSquare,
+} from "react-icons/fa";
 
 // const linkedInUrl = (url) => {
 //   return () event => window.open
@@ -13,6 +18,14 @@ const Footer = () => {
       </a>
       <a href="https://github.com/strong-one">
         <FaGithub color="white" size="100px" style={{ padding: "1%" }} />
+      </a>
+
+      <a href="https://www.facebook.com/nick.strong.18">
+        <FaFacebookSquare
+          color="white"
+          size="100px"
+          style={{ padding: "1%" }}
+        />
       </a>
       <a href="mailto:nstrong92@yahoo.com">
         <FaMailBulk color="white" size="100px" style={{ padding: "1%" }} />

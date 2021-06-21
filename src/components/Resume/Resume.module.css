@@ -51,9 +51,8 @@ li {
 
 .Download {
   /* background-color: #c21500; */
-  background: #c21500;
-  background: -webkit-linear-gradient(to right, #ffc500, #c21500);
-  background: linear-gradient(to right, #ffc500, #c21500);
+  background-color: #c21500;
+
   border-color: white;
   border-radius: 10px;
   font-size: 25px;
@@ -62,6 +61,6 @@ li {
 }
 
 .Download:hover {
-  background: rgb(46, 44, 44);
+  background-color: rgb(46, 44, 44);
   border-color: #ffc500;
 }

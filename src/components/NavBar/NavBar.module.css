@@ -32,9 +32,10 @@
   /* removes default line below anchor  */
   text-decoration: none;
   color: #ffc500;
+  font-size: 20px;
 }
 
 .NavBar a:hover {
   border-bottom: 2px solid white;
-  font-size: 25px;
+  font-size: 30px;
 }

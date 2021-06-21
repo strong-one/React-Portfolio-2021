@@ -95,16 +95,6 @@ const resumeComplete = [
 
 const Resume = () => {
   return (
-    // <div className={style.Resume} id="resume">
-    //   <PageHeader title={"Resume"} />
-    //   {/* <div className={style.Container}>{resumeComplete}</div> */}
-    //   <div className={style.Container}>
-    //     <img className={style.Img} src={CodePage} alt="code html file"></img>
-    //     {resumeComplete.map((resume) => {
-    //       return <div className={style.List}>{resume}</div>;
-    //     })}
-    //   </div>
-    // </div>
     <div className={style.Resume} id="resume">
       <PageHeader title={"Resume"} />
       {/* <div className={style.Container}>{resumeComplete}</div> */}
