@@ -7,7 +7,7 @@ import Home from "./components/Home/Home";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Resume from "./components/Resume/Resume";
 import Footer from "./components/Footer/Footer";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
 // for bootstrap refactor
 // import {  } from "react-bootstrap";
@@ -26,7 +26,7 @@ function App() {
     //   <Footer />
     // </>
 
-    <Router>
+    <Router basename="/">
       <NavBar />
       <Home />
 
