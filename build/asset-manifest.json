@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.76232222.chunk.css",
+    "main.js": "/static/js/main.d31959e8.chunk.js",
+    "main.js.map": "/static/js/main.d31959e8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c47bf3fe.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c47bf3fe.js.map",
+    "static/js/2.d44bc921.chunk.js": "/static/js/2.d44bc921.chunk.js",
+    "static/js/2.d44bc921.chunk.js.map": "/static/js/2.d44bc921.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.76232222.chunk.css.map": "/static/css/main.76232222.chunk.css.map",
+    "static/js/2.d44bc921.chunk.js.LICENSE.txt": "/static/js/2.d44bc921.chunk.js.LICENSE.txt",
+    "static/media/ECBE.437ce563.gif": "/static/media/ECBE.437ce563.gif",
+    "static/media/FF2021.1d36a68e.jpg": "/static/media/FF2021.1d36a68e.jpg",
+    "static/media/budget-tracker-img.202d1690.jpeg": "/static/media/budget-tracker-img.202d1690.jpeg",
+    "static/media/code.2a6d92fc.svg": "/static/media/code.2a6d92fc.svg",
+    "static/media/codepage.cfa5dbb4.jpg": "/static/media/codepage.cfa5dbb4.jpg",
+    "static/media/computer.e4cf285b.png": "/static/media/computer.e4cf285b.png",
+    "static/media/fittrack.c772d56b.jpeg": "/static/media/fittrack.c772d56b.jpeg",
+    "static/media/hollywodhub.4d134da7.png": "/static/media/hollywodhub.4d134da7.png",
+    "static/media/me.b1b984da.JPG": "/static/media/me.b1b984da.JPG",
+    "static/media/weatherdash.4a26ca1e.png": "/static/media/weatherdash.4a26ca1e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c47bf3fe.js",
+    "static/js/2.d44bc921.chunk.js",
+    "static/css/main.76232222.chunk.css",
+    "static/js/main.d31959e8.chunk.js"
+  ]
+}
