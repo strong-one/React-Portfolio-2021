@@ -7,7 +7,7 @@ import Home from "./components/Home/Home";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Resume from "./components/Resume/Resume";
 import Footer from "./components/Footer/Footer";
-// import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 // for bootstrap refactor
 // import {  } from "react-bootstrap";
@@ -16,26 +16,51 @@ import Footer from "./components/Footer/Footer";
 // can only return one function -- wrap in a <div></div> element to return more than one call can also use react fragments <> instead of divs </>
 function App() {
   return (
-    <>
+    // <>
+    //   <NavBar />
+    //   <Home />
+    //   <About />
+    //   <Resume />
+    //   <Portfolio />
+    //   <Contact />
+    //   <Footer />
+    // </>
+
+    <Router>
       <NavBar />
       <Home />
-      <About />
-      <Resume />
-      <Portfolio />
-      <Contact />
+
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/resume" component={Resume} />
+        <Route exact path="/portfolio" component={Portfolio} />
+        <Route exact path="/contact" component={Contact} />
+      </Switch>
+
       <Footer />
-    </>
+    </Router>
+
     // <Router>
     //   <NavBar />
     //   <Home />
-
     //   <Switch>
-    //     <Route exact path="/" component={About} />
-    //     <Route exact path="/Resume" component={Resume} />
-    //     <Route exact path="/Portfolio" component={Portfolio} />
-    //     <Route exact path="/Contact" component={Contact} />
+    //     <Route path="/">
+    //       <Home />
+    //     </Route>
+    //     <Route path="/aboutme">
+    //       <About />
+    //     </Route>
+    //     <Route path="/resume">
+    //       <Resume />
+    //     </Route>
+    //     <Route path="/portfolio">
+    //       <Portfolio />
+    //     </Route>
+    //     <Route path="/contact">
+    //       <Contact />
+    //     </Route>
     //   </Switch>
-
     //   <Footer />
     // </Router>
   );

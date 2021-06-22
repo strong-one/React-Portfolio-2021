@@ -1,5 +1,6 @@
 // importing css file within folder within first div
 import style from "./NavBar.module.css";
+import { Link } from "react-router-dom";
 // import Resume from "../Resume/Resume";
 // import { Navbar, Container, Nav } from "react-bootstrap";
 
@@ -23,19 +24,19 @@ const NavBar = () => {
       <nav>
         <ul>
           <li>
-            <a href="/">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="/#about">About Me</a>
+            <Link to="/about">About Me</Link>
           </li>
           <li>
-            <a href="/#resume">Resume</a>
+            <Link to="/resume">Resume</Link>
           </li>
           <li>
-            <a href="/#portfolio">Portfolio</a>
+            <Link to="/portfolio">Portfolio</Link>
           </li>
           <li>
-            <a href="/#contact">Let's Connect</a>
+            <Link to="/contact">Let's Connect</Link>
           </li>
         </ul>
       </nav>
