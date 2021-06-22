@@ -1,6 +1,8 @@
 .AboutMe {
+  margin-top: 40px;
   background-color: #2b2828;
   padding-bottom: 5%;
+  color: white;
 }
 .AboutMe .Container {
   display: flex;

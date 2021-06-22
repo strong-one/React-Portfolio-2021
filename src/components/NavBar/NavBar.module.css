@@ -5,7 +5,7 @@
   height: 80px;
   /* takes up 100% of screen */
   width: 100%;
-  position: fixed;
+  /* position: fixed; */
   /* make sure navbar will always be placed in front of all other emelents */
   z-index: 999;
   opacity: 0.9;
@@ -41,4 +41,5 @@
 
 h1 {
   padding-right: 100px;
+  color: white;
 }

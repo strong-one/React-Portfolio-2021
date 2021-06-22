@@ -1,10 +1,11 @@
 .Home {
+  margin-top: 40px;
   background: #c21500;
   background: -webkit-linear-gradient(to right, #ffc500, #c21500);
   background: linear-gradient(to right, #ffc500, #c21500);
 
   display: flex;
-  height: 630px;
+  height: 750px;
   padding-top: 90px;
   position: relative;
 }

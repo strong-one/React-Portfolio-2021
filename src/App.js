@@ -16,19 +16,9 @@ import { HashRouter as Router, Route, Switch } from "react-router-dom";
 // can only return one function -- wrap in a <div></div> element to return more than one call can also use react fragments <> instead of divs </>
 function App() {
   return (
-    // <>
-    //   <NavBar />
-    //   <Home />
-    //   <About />
-    //   <Resume />
-    //   <Portfolio />
-    //   <Contact />
-    //   <Footer />
-    // </>
-
     <Router basename="/">
       <NavBar />
-      <Home />
+      {/* <Home /> */}
 
       <Switch>
         <Route exact path="/" component={Home} />
@@ -40,29 +30,6 @@ function App() {
 
       <Footer />
     </Router>
-
-    // <Router>
-    //   <NavBar />
-    //   <Home />
-    //   <Switch>
-    //     <Route path="/">
-    //       <Home />
-    //     </Route>
-    //     <Route path="/aboutme">
-    //       <About />
-    //     </Route>
-    //     <Route path="/resume">
-    //       <Resume />
-    //     </Route>
-    //     <Route path="/portfolio">
-    //       <Portfolio />
-    //     </Route>
-    //     <Route path="/contact">
-    //       <Contact />
-    //     </Route>
-    //   </Switch>
-    //   <Footer />
-    // </Router>
   );
 }
 
