@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-Portfolio-2021/static/css/main.70ee3c8a.chunk.css",
-    "main.js": "/React-Portfolio-2021/static/js/main.2681edc1.chunk.js",
-    "main.js.map": "/React-Portfolio-2021/static/js/main.2681edc1.chunk.js.map",
+    "main.js": "/React-Portfolio-2021/static/js/main.4a29f723.chunk.js",
+    "main.js.map": "/React-Portfolio-2021/static/js/main.4a29f723.chunk.js.map",
     "runtime-main.js": "/React-Portfolio-2021/static/js/runtime-main.3c38163e.js",
     "runtime-main.js.map": "/React-Portfolio-2021/static/js/runtime-main.3c38163e.js.map",
     "static/js/2.5976dd51.chunk.js": "/React-Portfolio-2021/static/js/2.5976dd51.chunk.js",
@@ -12,6 +12,7 @@
     "static/js/2.5976dd51.chunk.js.LICENSE.txt": "/React-Portfolio-2021/static/js/2.5976dd51.chunk.js.LICENSE.txt",
     "static/media/ECBE.437ce563.gif": "/React-Portfolio-2021/static/media/ECBE.437ce563.gif",
     "static/media/FF2021.1d36a68e.jpg": "/React-Portfolio-2021/static/media/FF2021.1d36a68e.jpg",
+    "static/media/Nick-Strong-Resume.f695cb5b.pdf": "/React-Portfolio-2021/static/media/Nick-Strong-Resume.f695cb5b.pdf",
     "static/media/budget-tracker-img.202d1690.jpeg": "/React-Portfolio-2021/static/media/budget-tracker-img.202d1690.jpeg",
     "static/media/code.2a6d92fc.svg": "/React-Portfolio-2021/static/media/code.2a6d92fc.svg",
     "static/media/codepage.cfa5dbb4.jpg": "/React-Portfolio-2021/static/media/codepage.cfa5dbb4.jpg",
@@ -25,6 +26,6 @@
     "static/js/runtime-main.3c38163e.js",
     "static/js/2.5976dd51.chunk.js",
     "static/css/main.70ee3c8a.chunk.css",
-    "static/js/main.2681edc1.chunk.js"
+    "static/js/main.4a29f723.chunk.js"
   ]
 }
