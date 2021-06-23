@@ -2,6 +2,7 @@ import style from "./Resume.module.css";
 import PageHeader from "./../PageHeader/PageHeader";
 import CodePage from "../../img/codepage.jpg";
 import { Button } from "react-bootstrap";
+import pdfResume from "../../components/Resume/Nick-Strong-Resume.pdf";
 
 const listTitleStyle = {
   fontWeight: 900,
@@ -111,7 +112,15 @@ const Resume = (props) => {
         })}
       </div>
       <div className={style.DownloadContainer}>
-        <a href="https://docs.google.com/document/d/1jnoZjRx_b3kU6e6jccsBkMeP6bYWrOX9FKDiW3lIdgU/edit?usp=sharing">
+        {/* <a
+          href="https://docs.google.com/document/d/1jnoZjRx_b3kU6e6jccsBkMeP6bYWrOX9FKDiW3lIdgU/edit?usp=sharing"
+          target="_blank"
+        >
+          <Button className={style.Download} variant="primary">
+            Resumé Download
+          </Button>
+        </a> */}
+        <a href={pdfResume} target="_blank" download>
           <Button className={style.Download} variant="primary">
             Resumé Download
           </Button>
