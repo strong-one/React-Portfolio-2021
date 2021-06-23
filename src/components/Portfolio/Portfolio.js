@@ -22,10 +22,13 @@ const Portfolio = () => {
               A Progressive web app. This app keeps track of your budget all
               while having both online and offline capabilities.
             </Card.Text>
-            <a href="https://github.com/strong-one/Budget-Tracker-Progressive">
+            <a
+              href="https://github.com/strong-one/Budget-Tracker-Progressive"
+              target="_blank"
+            >
               <Button variant="primary">See code</Button>
             </a>
-            <a href="https://lit-badlands-23728.herokuapp.com/">
+            <a href="https://lit-badlands-23728.herokuapp.com/" target="_blank">
               <Button variant="primary">Deployed Site</Button>
             </a>
           </Card.Body>
@@ -40,10 +43,16 @@ const Portfolio = () => {
               Think of a location.... whatever it is. This app will find the
               wether for any place you think of.
             </Card.Text>
-            <a href="https://github.com/strong-one/Strong-Weather-Dashboard">
+            <a
+              href="https://github.com/strong-one/Strong-Weather-Dashboard"
+              target="_blank"
+            >
               <Button variant="primary">See Code</Button>
             </a>
-            <a href="https://strong-one.github.io/Strong-Weather-Dashboard/">
+            <a
+              href="https://strong-one.github.io/Strong-Weather-Dashboard/"
+              target="_blank"
+            >
               <Button variant="primary">Deployed Site</Button>
             </a>
           </Card.Body>
@@ -55,10 +64,16 @@ const Portfolio = () => {
           <Card.Body>
             <Card.Title>Hollywood Hub</Card.Title>
             <Card.Text>A blend of IMDB and Pintrest.</Card.Text>
-            <a href="https://github.com/strong-one/Hollywood-Hub">
+            <a
+              href="https://github.com/strong-one/Hollywood-Hub"
+              target="_blank"
+            >
               <Button variant="primary">See Code</Button>
             </a>
-            <a href="https://strong-one.github.io/Hollywood-Hub/">
+            <a
+              href="https://strong-one.github.io/Hollywood-Hub/"
+              target="_blank"
+            >
               <Button variant="primary">Deployed Site</Button>
             </a>
           </Card.Body>
@@ -73,10 +88,16 @@ const Portfolio = () => {
               progress is important. This application will help with all
               tracking on your fitness journey.
             </Card.Text>
-            <a href="https://github.com/strong-one/Fitness-Tracker">
+            <a
+              href="https://github.com/strong-one/Fitness-Tracker"
+              target="_blank"
+            >
               <Button variant="primary">See Code</Button>
             </a>
-            <a href="https://guarded-scrubland-83578.herokuapp.com/?id=60c574f18c9bf00015247221">
+            <a
+              href="https://guarded-scrubland-83578.herokuapp.com/?id=60c574f18c9bf00015247221"
+              target="_blank"
+            >
               <Button variant="primary">Deployed Site</Button>
             </a>
           </Card.Body>
@@ -92,10 +113,16 @@ const Portfolio = () => {
               back end. This projects shows functional CRUD opertations on all
               of the data.
             </Card.Text>
-            <a href="https://github.com/strong-one/E-Commerce-Back-End_ORM">
+            <a
+              href="https://github.com/strong-one/E-Commerce-Back-End_ORM"
+              target="_blank"
+            >
               <Button variant="primary">See code</Button>
             </a>
-            <a href="https://drive.google.com/file/d/11mW3G28r_EcaKUtRv_i0E5tfVqbZUUAt/view?usp=sharing">
+            <a
+              href="https://drive.google.com/file/d/11mW3G28r_EcaKUtRv_i0E5tfVqbZUUAt/view?usp=sharing"
+              target="_blank"
+            >
               <Button variant="primary">See Video Demo</Button>
             </a>
           </Card.Body>
@@ -110,10 +137,16 @@ const Portfolio = () => {
               creating a user account, enctypting password and storing all user
               data in a database.
             </Card.Text>
-            <a href="https://github.com/strong-one/Ford-Finder-2021">
+            <a
+              href="https://github.com/strong-one/Ford-Finder-2021"
+              target="_blank"
+            >
               <Button variant="primary">See Code </Button>
             </a>
-            <a href="https://whispering-fortress-31426.herokuapp.com/">
+            <a
+              href="https://whispering-fortress-31426.herokuapp.com/"
+              target="_blank"
+            >
               <Button variant="primary">Deployed Site</Button>
             </a>
           </Card.Body>
