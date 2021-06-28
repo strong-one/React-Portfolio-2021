@@ -5,7 +5,7 @@
 
 ## Description
 
-Every devloper needs a portfolio page that will showcase thier projects and work to potential emloyers or customers.
+Every developer needs a portfolio page that will showcase thier projects and work to potential emloyers or customers.
 
 This portfolio is constructed with react, react made construction of this page very clear and concise, It is understandable how many companies are using this library. It makes rendering information to the user much more efficient and really hits the DRY technique home
 
